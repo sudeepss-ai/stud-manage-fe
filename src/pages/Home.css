@@ -1,0 +1,44 @@
+.home-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 40px 30px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.home-container h1 {
+  font-size: 28px;
+  color: #222222;
+  margin-bottom: 15px;
+}
+
+.home-container p {
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.view-students-btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.view-students-btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.view-students-btn:active {
+  transform: translateY(0);
+}
